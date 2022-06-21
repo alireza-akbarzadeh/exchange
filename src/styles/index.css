@@ -1,0 +1,28 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("./fontiran.css");
+@import url("./style.css");
+
+@layer utilities {
+    .btn-primary-hover {
+        background-image: linear-gradient(
+                rgb(255, 226, 81) 0%,
+                rgb(237, 196, 35) 100%
+        );
+    }
+
+    .btn-primary {
+        background-image: linear-gradient(
+                rgb(248, 209, 47) 0%,
+                rgb(240, 185, 11) 100%
+        );
+    }
+
+    .sidebar {
+    }
+
+    .sidebarlg {
+    }
+}
